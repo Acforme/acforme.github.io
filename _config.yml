@@ -18,32 +18,30 @@ side_bar_repo_limit: 5
 # ---------------- #
 author: acforme
 organization:school
-organization_url: 
-location: 
-email: 
-
+organization_url: 暂无
+location: 暂无
+email: 暂无
 # ---------------- #
 #    Navigation    #
 # ---------------- #
 navs:
   -
-    href: /
+    href: / 暂无
     label: 首页
 
   -
-    href: /categories/
-    label: 分类
-
+    href: /categories/ 暂无
+    label: 分类 暂无
   -
-    href: /wiki/
+    href: /wiki/ 暂无
     label: 维基
 
   -
-    href: /links/
+    href: /links/ 暂无
     label: 链接
 
   -
-    href: /about/
+    href: /about/ 暂无
     label: 关于
 
 # ---------------- #
@@ -72,8 +70,8 @@ gems:
     - jekyll-feed
     - jemoji
 #     - jekyll-mentions
-collections:
-    wiki:
+collections: 暂无
+    wiki: 暂无
         output: true
         permalink: /wiki/:path/
 
