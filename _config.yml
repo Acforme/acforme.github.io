@@ -4,23 +4,23 @@
 4	baseurl:
 5	url: https://acforme.github.io
 6	date_format: "ordinal"
-7	title: Acforme
-8	subtitle: "江南何采莲，莲叶何田田"
-9	description: "Acforme的个人博客"
-10	keywords: personalblog, Acforme
+7	title: 码志
+8	subtitle: "打码改变人生"
+9	description: "马壮的个人博客"
+10	keywords: 码志, Zhuang Ma, mzlogin, mazhuang
 11	favicon: /favicon.ico
-12	timezone: Asia/Beijing
+12	timezone: Asia/Shanghai
 13	encoding: "utf-8"
 14	side_bar_repo_limit: 5
 15	
 16	# ---------------- #
 17	#      Author      #
 18	# ---------------- #
-19	author: Acforme
-20	organization: Unknown.
-21	organization_url: Unknown
+19	author: Zhuang Ma
+20	organization: Sogou, Inc.
+21	organization_url: https://www.sogou.com
 22	location: Beijing, China
-23	email: Unknown
+23	email: chumpma@gmail.com
 24	
 25	# ---------------- #
 26	#    Navigation    #
