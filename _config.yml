@@ -1,113 +1,115 @@
 # ---------------- #
-#   Main Configs   #
-# ---------------- #
-baseurl:
-url: https://acforme.github.io
-date_format: "ordinal"
-title: Acforme
-subtitle: "无语"
-description: "个人博客"
-keywords: acforme
-favicon: /favicon.ico
-timezone: Asia/Shanghai
-encoding: "utf-8"
-side_bar_repo_limit: 5
-
-# ---------------- #
-#      Author      #
-# ---------------- #
-author: acforme
-organization:school
-organization_url: 暂无
-location: 暂无
-email: 暂无
-# ---------------- #
-#    Navigation    #
-# ---------------- #
-navs:
-  -
-    href: / 暂无
-    label: 首页
-
-  -
-    href: /categories/ 暂无
-    label: 分类 暂无
-  -
-    href: /wiki/ 暂无
-    label: 维基
-
-  -
-    href: /links/ 暂无
-    label: 链接
-
-  -
-    href: /about/ 暂无
-    label: 关于
-
-# ---------------- #
-#       RSS        #
-# ---------------- #
-subscribe_rss: /feed.xml
-
-# ---------------- #
-#      Jekyll      #
-# ---------------- #
-markdown: kramdown
-kramdown:
-    input: GFM
-highlighter: rouge
-paginate: 8
-lsi: false
-quiet: false
-excerpt_separator: "\n\n"
-permalink: /:year/:month/:day/:title/
-gems:
-    - jekyll-github-metadata
-    - rouge
-#     - jekyll-html-pipeline
-    - jekyll-paginate
-    - jekyll-sitemap
-    - jekyll-feed
-    - jemoji
-#     - jekyll-mentions
-collections: 暂无
-    wiki: 暂无
-        output: true
-        permalink: /wiki/:path/
-
-repository: acforme/acforme.github.io
-
-# ---------------- #
-#      Socials     #
-# ---------------- #
-github_username: 
-douban_username: 
-facebook_username:
-weibo_username: 
-zhihu_username: 
-twitter_username:
-
-# ---------------- #
-#      Comments    #
-# ---------------- #
-# support provider: disqus, duoshuo
-comments_provider: 
-# !!!重要!!! 请修改下面两个用户名为你自己申请的
-# !!!Important!!! Please modify usernames below to yours
-duoshuo_username: 
-disqus_username: 
-# 在使用 disqus 的时候可点击显示多说评论框
-lazy_load_duoshuo: true
-
-# ---------------- #
-#    Analytics     #
-# ---------------- #
-google:
-    analytics_id: UA-80669434-1
-
-# ---------------- #
-#      Datas       #
-# ---------------- #
-skill_software_keywords: [Java, C++, Python, Design Patterns]
-skill_mobile_app_keywords: [Android, Reverse Engineering]
-skill_windows_keywords: [Win32 SDK, DuiLib, WTL, COM, WinDbg]
+2	#   Main Configs   #
+3	# ---------------- #
+4	baseurl:
+5	url: https://acforme.github.io
+6	date_format: "ordinal"
+7	title: Acforme
+8	subtitle: "江南何采莲，莲叶何田田"
+9	description: "Acforme的个人博客"
+10	keywords: personalblog, Acforme
+11	favicon: /favicon.ico
+12	timezone: Asia/Beijing
+13	encoding: "utf-8"
+14	side_bar_repo_limit: 5
+15	
+16	# ---------------- #
+17	#      Author      #
+18	# ---------------- #
+19	author: Acforme
+20	organization: Unknown.
+21	organization_url: Unknown
+22	location: Beijing, China
+23	email: Unknown
+24	
+25	# ---------------- #
+26	#    Navigation    #
+27	# ---------------- #
+28	navs:
+29	  -
+30	    href: /
+31	    label: 首页
+32	
+33	  -
+34	    href: /categories/
+35	    label: 分类
+36	
+37	  -
+38	    href: /wiki/
+39	    label: 维基
+40	
+41	  -
+42	    href: /links/
+43	    label: 链接
+44	
+45	  -
+46	    href: /about/
+47	    label: 关于
+48	
+49	# ---------------- #
+50	#       RSS        #
+51	# ---------------- #
+52	subscribe_rss: /feed.xml
+53	
+54	# ---------------- #
+55	#      Jekyll      #
+56	# ---------------- #
+57	markdown: kramdown
+58	kramdown:
+59	    input: GFM
+60	highlighter: rouge
+61	paginate: 8
+62	lsi: false
+63	quiet: false
+64	excerpt_separator: "\n\n"
+65	permalink: /:year/:month/:day/:title/
+66	gems:
+67	    - jekyll-github-metadata
+68	    - rouge
+69	#     - jekyll-html-pipeline
+70	    - jekyll-paginate
+71	    - jekyll-sitemap
+72	    - jekyll-feed
+73	    - jemoji
+74	#     - jekyll-mentions
+75	collections:
+76	    wiki:
+77	        output: true
+78	        permalink: /wiki/:path/
+79	
+80	repository: mzlogin/mzlogin.github.io
+81	
+82	# ---------------- #
+83	#      Socials     #
+84	# ---------------- #
+85	github_username: mzlogin
+86	douban_username: freedim
+87	facebook_username: mzlogin
+88	weibo_username: mzlogin
+89	zhihu_username: mzlogin
+90	twitter_username: mzlogin
+91	
+92	# ---------------- #
+93	#      Comments    #
+94	# ---------------- #
+95	# support provider: disqus, duoshuo
+96	comments_provider: disqus
+97	# !!!重要!!! 请修改下面两个用户名为你自己申请的
+98	# !!!Important!!! Please modify usernames below to yours
+99	duoshuo_username: mazhuang
+100	disqus_username: mzlogin
+101	# 在使用 disqus 的时候可点击显示多说评论框
+102	lazy_load_duoshuo: true
+103	
+104	# ---------------- #
+105	#    Analytics     #
+106	# ---------------- #
+107	google:
+108	    analytics_id: UA-80669434-1
+109	
+110	# ---------------- #
+111	#      Datas       #
+112	# ---------------- #
+113	skill_software_keywords: [Java, C++, Python, Design Patterns]
+114	skill_mobile_app_keywords: [Android, Reverse Engineering]
+115	skill_windows_keywords: [Win32 SDK, DuiLib, WTL, COM, WinDbg]
